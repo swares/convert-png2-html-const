@@ -12,3 +12,4 @@ do
   perl -pi -e "s/$/';\n/" ${file}.uu
 done
 cat *.uu > icons-set.uu.txt
+rm -f *.uu
