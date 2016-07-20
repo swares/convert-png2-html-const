@@ -8,11 +8,8 @@ do
   perl -pi -e "s/begin-base64 644 ${file}/<img src=\"data:image\/png;base64,/" ${file}.uu
   perl -pi -e "s/^====$/\" alt=\"${file}\">/" ${file}.uu
   perl -pi -e "s/\n//" ${file}.uu
-  perl -pi -e "s/^/const char ui_${filename}[] PROGMEM = {\"" ${file}.uu
-  
-  const char signMessage[] PROGMEM = {"
-  
-  perl -pi -e "s/$/';\n/" ${file}.uu
+  perl -pi -e "s/^/const char ui_${filename}[] PROGMEM = {\'/" ${file}.uu
+  perl -pi -e "s/$/'};\n/" ${file}.uu
 done
 cat *.uu > icons-set.uu.txt
 rm -f *.uu
