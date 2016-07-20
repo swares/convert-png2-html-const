@@ -7,7 +7,7 @@ Convert PNG Icon files to Embedded HTML Image C++ const char
 
     Creates icons-set.uu.txt from any png files in the current directory.
     
-    Linux / Unix with: bash + uuconvert (shar-tools) + perl is required.
+    Required: Linux / Unix with - bash + cat + echo + ls + perl + rm + tr + uuencode (shar-tools).
     
     Just copy and past in any image variables into your code as you like.
     
