@@ -9,7 +9,7 @@ Convert PNG Icon files to Embedded HTML Image C++ const char
     
     Just copy and past in any image variables into your code as you like.
     
-    Designed for use with Ardunio / NodeMCU / ESP8266 and other microcontrolers.
+    Designed for use with Ardunio / NodeMCU / ESP8266 and other microcontrolers / IoT.
 
     Usage:  ./convert-png2-html-const.sh
 
