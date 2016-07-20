@@ -1,12 +1,14 @@
 # convert-png2-html-const
 Convert PNG Icon files to Embedded HTML Image C++ const char
 
-    Creates icons-set.uu.txt from any png files in the current directory.
-    
     Want to use images on the web pages your microcontroler uses but don't have a sdcard attached?
     
     Don't want to hastle with manual conversion! Then this script is for you!
 
+    Creates icons-set.uu.txt from any png files in the current directory.
+    
+    Just copy and past in any image variables into your code as you like.
+    
     Designed for use with Ardunio / NodeMCU / ESP8266 and other microcontrolers.
 
     Example Usage:
