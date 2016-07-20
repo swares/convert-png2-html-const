@@ -1,7 +1,7 @@
 # convert-png2-html-const
 Convert PNG Icon files to Embedded HTML Image C++ const char
 
-    Want to use images on the web pages your microcontroler uses but don't have a sdcard attached?
+    Want to use images on the web pages your microcontroler produces but don't have a sdcard attached?
     
     Don't want to hastle with manual conversion! Then this script is for you!
 
