@@ -1,4 +1,3 @@
-
 #!/bin/bash
 # Convert PNG Icons to Embedded HTML Image const char prgm mem variables
 
@@ -11,7 +10,7 @@ do
   filename_in="${file%.*}"
   filename=`echo "${filename_in}" | tr - _`
   uuencode --base64 ${file} ${file} > ${file}.uu
-  perl -pi -e "s/begin-base64 770 ${file}/<img src='data:image\/png;base64,/" ${file}.uu
+  perl -pi -e "s/begin-base64 ... ${file}/<img src='data:image\/png;base64,/" ${file}.uu
   perl -pi -e "s/^====$/' alt='${file}'>/" ${file}.uu
   perl -pi -e "s/\n//" ${file}.uu
   perl -pi -e "s/^/const static char *ui_${filename} = \"/" ${file}.uu
